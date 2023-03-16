@@ -63,7 +63,7 @@ export default function ResponseView({
 
   return (
     <div
-      className="w-full flex-grow overflow-y-auto whitespace-pre-wrap p-6"
+      className="flex w-full flex-grow items-center overflow-y-auto whitespace-pre-wrap p-6"
       ref={responseContainerRef}
     >
       <span
